@@ -1,0 +1,4 @@
+1. make sure to store order Id of previously generated image somewhere in the app, and use it as initial state when loading page
+2. Instead of 1 image, be able to handle an array of images?
+3. currently calling weather API 2 times, because first is based on hardcoded lat and lng and, second is based on current location. Need to fix that
+4. Handle error cases when APIs fail for both weather API and AI image APIs
