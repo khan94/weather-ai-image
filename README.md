@@ -68,3 +68,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+NOTE: To be able to retrieve data for weather, you would have
+
+NOTE: To be able to retrieve weather data and generate AI image, please make sure to add .env file in the root folder with variables named `REACT_APP_WEATHER_API` and `REACT_APP_AI_IMG_GENERATOR_API` respectively.
+
+To generate token for weather API, check here: https://openweathermap.org/faq under `How to get an API key`
+To generate token for AI image generation API, check here: https://docs.neural.love/docs
